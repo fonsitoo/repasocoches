@@ -2,7 +2,8 @@ package com.edu.arf.liceo.repasocoches.util;
 
 public enum View {
     LOGIN("login.fxml"),
-    REGISTRO("register.fxml");
+    REGISTRO("register.fxml"),
+    COCHES("coches.fxml");
 
     private String fileName;
     View(String fileName) {
