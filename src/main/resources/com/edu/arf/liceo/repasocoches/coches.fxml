@@ -13,11 +13,11 @@
 
     <Label text="Listado de Coches" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
 
-    <TableView fx:id="tablaCoches" VBox.vgrow="ALWAYS">
+    <TableView fx:id="coches" VBox.vgrow="ALWAYS">
         <columns>
-            <TableColumn fx:id="colMatricula" text="Matrícula" prefWidth="150"/>
-            <TableColumn fx:id="colMarca" text="Marca" prefWidth="150"/>
-            <TableColumn fx:id="colElectrico" text="¿Es Eléctrico?" prefWidth="120"/>
+            <TableColumn fx:id="matricula" text="Matrícula" prefWidth="150"/>
+            <TableColumn fx:id="marca" text="Marca" prefWidth="150"/>
+            <TableColumn fx:id="electrico" text="¿Es Eléctrico?" prefWidth="120"/>
         </columns>
     </TableView>
 
